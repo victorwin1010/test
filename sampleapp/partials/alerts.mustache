@@ -1,0 +1,10 @@
+{{#alerts}}
+<div class="alert {{#type}} alert-{{type}}" {{/type}} role="alert">
+    {{#close}}
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    {{/close}} {{#title}}
+    <h4>{{title}}</h4> {{/title}} {{#message}}
+    <p>{{message}}</p>
+    {{/message}}
+</div>
+{{/alerts}}
